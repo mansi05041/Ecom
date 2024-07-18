@@ -21,7 +21,7 @@ function NavbarImplementation() {
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link href="#action2">Products</Nav.Link>
             <NavDropdown title="Settings" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item as={Link} to="/AddProduct">
                 Add Product
               </NavDropdown.Item>
               <NavDropdown.Item href="#action5">
